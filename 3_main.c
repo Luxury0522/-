@@ -3,8 +3,8 @@
 #include<stdio.h>
 int main(void)
 {
-    int a,b,c;
-    scanf("%d %d %d", &a, &b, &c);
+    float a,b,c;
+    scanf("%f %f %f", &a, &b, &c);
     if(a+b>c && a+c>b && b+c>a)
     {
         printf("可以构成三角形\n");
