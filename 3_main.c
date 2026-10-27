@@ -4,7 +4,7 @@
 int main(void)
 {
     float a,b,c;
-    scanf("%f %f %f", &a, &b, &c);
+    scanf("%lf %lf %lf", &a, &b, &c);
     if(a+b>c && a+c>b && b+c>a)
     {
         printf("可以构成三角形\n");
